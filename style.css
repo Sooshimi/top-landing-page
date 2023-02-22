@@ -12,17 +12,16 @@ a {
     color: #E5E7EB;
 }
 
-.header,
+.header_container,
 .hero_container {
-    background-color: #1F2937;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-.header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
+    padding: 0px 100px;
+}
+
+.header_container {
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header_logo {
@@ -34,18 +33,21 @@ a {
     margin-left: auto;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .hero_container {
-    display: flex;
-    padding-top: 50px;
+    justify-content: center;
+    padding-top: 25px;
     padding-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
-img {
-    max-width: 75%;
+.hero_container img {
+    max-width: 80%;
     height: auto;
+    justify-content: center;
 }
 
 .hero_title {
@@ -57,11 +59,10 @@ img {
 .hero_left p {
     color: #F9FAF8;
     flex-grow: 1;
+    max-width: 300px;
 }
 
 .hero_right {
     display: flex;
-    justify-content: flex-end;
-    flex-shrink: 0;
-    flex-grow: 1;
+    justify-content: center;
 }
