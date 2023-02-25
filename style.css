@@ -73,7 +73,7 @@ button {
     background-color: #3882F6;  
     padding:0.7em 1.7em;
     margin:0 0.3em 0.3em 0;
-    border-radius:0.2em;
+    border-radius:0.3em;
     box-sizing: border-box;
     text-decoration: none;
     font-weight:400;
@@ -124,4 +124,30 @@ button {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+}
+
+.sign_up_container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sign_up_banner {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 25px 50px;
+    gap: 100px;
+    border-radius: 0.3em;
+}
+
+.sign_up_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_up_text h3,
+.sign_up_text p {
+    margin: 0px;
+    color: #F9FAF8;;
 }
