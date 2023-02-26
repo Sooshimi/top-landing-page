@@ -113,7 +113,7 @@ button {
     justify-content: center;
     background-color: #E5E7EB;
     font-size: 36px;
-    padding: 25px;
+    padding: 25px 200px;
 }
 
 .quote {
@@ -150,4 +150,11 @@ button {
 .sign_up_text p {
     margin: 0px;
     color: #F9FAF8;;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
 }
